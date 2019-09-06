@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="6" total="7" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="23093" started-at="2019-09-05T12:04:15Z" finished-at="2019-09-05T12:04:39Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="23093" started-at="2019-09-05T12:04:15Z" finished-at="2019-09-05T12:04:39Z">
+      <class name="com.atgadmin.qa.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.atgadmin.qa.testcases.LoginPageTest@7dc7cbad]" name="setUp" is-config="true" duration-ms="7363" started-at="2019-09-05T17:34:15Z" finished-at="2019-09-05T17:34:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="updateAdminUserTest()[pri:0, instance:com.atgadmin.qa.testcases.LoginPageTest@7dc7cbad]" name="updateAdminUserTest" duration-ms="15719" started-at="2019-09-05T17:34:23Z" finished-at="2019-09-05T17:34:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateAdminUserTest -->
+      </class> <!-- com.atgadmin.qa.testcases.LoginPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
