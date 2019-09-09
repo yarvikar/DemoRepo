@@ -261,7 +261,7 @@ String csuname = driver.findElement(By.xpath("/html/body/app-root/app-default-la
 		driver.findElement(By.xpath("//*[@id='mat-input-3']")).clear();
 		Thread.sleep(5000L);
 //Change name details		
-		driver.findElement(By.xpath("//*[@id='mat-input-3']")).sendKeys("GU Arvikar Yogesh");
+		driver.findElement(By.xpath("//*[@id='mat-input-3']")).sendKeys("gobal user Arvikar Yogesh");
 //click on save button		
 		driver.findElement(By
 				.xpath("/html/body/app-root/app-default-layout/app-edit-profile/app-item-layout/div/mat-card[1]/mat-card-actions/button/span"))
@@ -269,6 +269,16 @@ String csuname = driver.findElement(By.xpath("/html/body/app-root/app-default-la
 		Thread.sleep(5000L);
 //click on profile image icon
 		driver.findElement(By.xpath("//*[@class='mat-icon material-icons']")).click();
+//click on edit manage profile icon image		
+		driver.findElement(By.xpath("//a[@role='menuitem']")).click();
+		
+String updatedName = driver.findElement(By.xpath("//*[@class='mat-list-text']/p[3]")).getText();
+
+System.out.println(updatedName);
+
+		Assert.assertTrue(updatedName.contains("Arvikar Yogesh"));
+
+
 		
 	}
 	
