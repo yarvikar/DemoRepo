@@ -249,10 +249,26 @@ String csuname = driver.findElement(By.xpath("/html/body/app-root/app-default-la
 		actions.click();
 		actions.sendKeys("yarvikar@associaonline.com");
 		actions.build().perform();
-		
-		
-		
-		
+		Thread.sleep(4000L);
+//Click on User Name
+		driver.findElement(By.xpath("/html/body/app-root/app-default-layout/app-default/app-list-layout/article/div/div/mat-nav-list/mat-list-item/div/div[2]/p[1]")).click();
+//click on Profile Edit	
+		Thread.sleep(5000L);
+//Edit profile		
+		driver.findElement(By.xpath("/html/body/app-root/app-default-layout/app-profile/app-item-layout/div/mat-card[1]/mat-card-title/button/span/mat-icon")).click();
+		Thread.sleep(4000L);
+//clear name field		
+		driver.findElement(By.xpath("//*[@id='mat-input-3']")).clear();
+		Thread.sleep(5000L);
+//Change name details		
+		driver.findElement(By.xpath("//*[@id='mat-input-3']")).sendKeys("GU Arvikar Yogesh");
+//click on save button		
+		driver.findElement(By
+				.xpath("/html/body/app-root/app-default-layout/app-edit-profile/app-item-layout/div/mat-card[1]/mat-card-actions/button/span"))
+				.click();
+		Thread.sleep(5000L);
+//click on profile image icon
+		driver.findElement(By.xpath("//*[@class='mat-icon material-icons']")).click();
 		
 	}
 	

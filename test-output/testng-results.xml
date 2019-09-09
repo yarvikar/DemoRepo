@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="6" total="7" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="23093" started-at="2019-09-05T12:04:15Z" finished-at="2019-09-05T12:04:39Z">
+  <suite name="Default suite" duration-ms="46028" started-at="2019-09-06T13:30:55Z" finished-at="2019-09-06T13:31:41Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="23093" started-at="2019-09-05T12:04:15Z" finished-at="2019-09-05T12:04:39Z">
+    <test name="Default test" duration-ms="46028" started-at="2019-09-06T13:30:55Z" finished-at="2019-09-06T13:31:41Z">
       <class name="com.atgadmin.qa.testcases.LoginPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.atgadmin.qa.testcases.LoginPageTest@7dc7cbad]" name="setUp" is-config="true" duration-ms="7363" started-at="2019-09-05T17:34:15Z" finished-at="2019-09-05T17:34:23Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.atgadmin.qa.testcases.LoginPageTest@7dc7cbad]" name="setUp" is-config="true" duration-ms="6850" started-at="2019-09-06T19:00:55Z" finished-at="2019-09-06T19:01:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="updateAdminUserTest()[pri:0, instance:com.atgadmin.qa.testcases.LoginPageTest@7dc7cbad]" name="updateAdminUserTest" duration-ms="15719" started-at="2019-09-05T17:34:23Z" finished-at="2019-09-05T17:34:39Z">
+        <test-method status="PASS" signature="updateAdminUserTest()[pri:0, instance:com.atgadmin.qa.testcases.LoginPageTest@7dc7cbad]" name="updateAdminUserTest" duration-ms="39168" started-at="2019-09-06T19:01:02Z" finished-at="2019-09-06T19:01:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateAdminUserTest -->
